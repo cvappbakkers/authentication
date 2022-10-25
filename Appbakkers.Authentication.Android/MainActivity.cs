@@ -3,6 +3,8 @@ using Android.OS;
 using Android.Runtime;
 using AndroidX.AppCompat.App;
 using Android.Content.PM;
+using Android.Widget;
+using Android.Content;
 
 namespace Appbakkers.Authentication.Android
 {
@@ -14,6 +16,20 @@ namespace Appbakkers.Authentication.Android
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+
+            Button buttonPassport = FindViewById<Button>(Resource.Id.ButtonPassport);
+
+            buttonPassport.Click += (s, e) => {
+                var intent = new Intent(this, typeof(PassportActivity));
+                StartActivity(intent);
+            };
+
+            Button buttonSanctum = FindViewById<Button>(Resource.Id.ButtonSanctum);
+
+            buttonSanctum.Click += (s, e) => {
+                var intent = new Intent(this, typeof(SanctumActivity));
+                StartActivity(intent);
+            };
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
