@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1703.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appbakkers.Authentication.iOS", "Appbakkers.Authentication.iOS\Appbakkers.Authentication.iOS.csproj", "{70552110-0D7B-422F-A50A-DABBE8350AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appbakkers.Authentication.Android", "Appbakkers.Authentication.Android\Appbakkers.Authentication.Android.csproj", "{8621CC90-86D0-4375-BF43-3FBE58800C36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -21,6 +23,14 @@ Global
 		{70552110-0D7B-422F-A50A-DABBE8350AC3}.Debug|iPhone.Build.0 = Debug|iPhone
 		{70552110-0D7B-422F-A50A-DABBE8350AC3}.Release|iPhone.ActiveCfg = Release|iPhone
 		{70552110-0D7B-422F-A50A-DABBE8350AC3}.Release|iPhone.Build.0 = Release|iPhone
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8621CC90-86D0-4375-BF43-3FBE58800C36}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
